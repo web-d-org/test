@@ -5,3 +5,9 @@ p{
 color: blue;
 
 }
+nav{
+  display:block;
+}
+a{
+  display: inline-block;
+}
