@@ -8,6 +8,17 @@ color: blue;
 nav{
   display:block;
 }
-a{
+a:link{
   display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  border: solid 1px #000;
+  color: #000;
+}
+a:hover{
+  color: red;
+  border: solid 1px red;
+}
+a:visited{
+  color: #000;
 }
